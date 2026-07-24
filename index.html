@@ -1,17 +1,249 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Lorena & Carlos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lorena & Carlos</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Montserrat',sans-serif;
+background:#faf8f5;
+color:#222;
+}
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)),
+url("https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1600&q=80");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero-content{
+
+color:white;
+
+}
+
+h1{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:72px;
+
+font-weight:300;
+
+letter-spacing:3px;
+
+margin-bottom:15px;
+
+}
+
+.fecha{
+
+letter-spacing:5px;
+
+font-size:18px;
+
+margin-bottom:35px;
+
+}
+
+.frase{
+
+font-size:20px;
+
+font-style:italic;
+
+max-width:700px;
+
+margin:auto;
+
+margin-bottom:45px;
+
+line-height:1.8;
+
+}
+
+.boton{
+
+display:inline-block;
+
+padding:16px 40px;
+
+border:1px solid white;
+
+color:white;
+
+text-decoration:none;
+
+transition:.35s;
+
+font-size:14px;
+
+letter-spacing:2px;
+
+}
+
+.boton:hover{
+
+background:white;
+
+color:black;
+
+}
+
+section{
+
+padding:90px 10%;
+
+text-align:center;
+
+}
+
+h2{
+
+font-family:'Cormorant Garamond',serif;
+
+font-size:50px;
+
+margin-bottom:25px;
+
+font-weight:400;
+
+}
+
+.texto{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#555;
+
+}
+
+footer{
+
+padding:60px;
+
+text-align:center;
+
+font-size:14px;
+
+color:#777;
+
+}
+
+@media(max-width:768px){
+
+h1{
+
+font-size:50px;
+
+}
+
+h2{
+
+font-size:38px;
+
+}
+
+.frase{
+
+font-size:18px;
+
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Lorena & Carlos</h1>
+<header class="hero">
 
-<h2>¡Nos casamos!</h2>
+<div class="hero-content">
 
-<p>07 de noviembre de 2026</p>
+<h1>Lorena <br>&<br> Carlos</h1>
+
+<div class="fecha">
+
+07 · NOVIEMBRE · 2026
+
+</div>
+
+<div class="frase">
+
+"Hay momentos que se viven una sola vez... y no podríamos imaginar este sin ustedes."
+
+</div>
+
+<a href="#bienvenida" class="boton">
+
+DESCUBRIR
+
+</a>
+
+</div>
+
+</header>
+
+<section id="bienvenida">
+
+<h2>Bienvenidos</h2>
+
+<p class="texto">
+
+Con mucha ilusión queremos compartir con ustedes uno de los días más importantes de nuestra vida.
+
+Gracias por acompañarnos.
+
+</p>
+
+</section>
+
+<footer>
+
+Hecho con ❤️ para nuestra boda
+
+</footer>
 
 </body>
 </html>
